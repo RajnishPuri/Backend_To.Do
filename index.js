@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 const corsOptions = {
-    origin: 'https://frontend-to-do-seven.vercel.app/',
+    origin: 'https://frontend-to-do-seven.vercel.app',
     credentials: true,
 };
 
