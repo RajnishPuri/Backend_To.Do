@@ -9,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 const corsOptions = {
-    origin: 'http://localhost:5173',
+    origin: 'https://frontend-to-do-seven.vercel.app/',
     credentials: true,
 };
 
